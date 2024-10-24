@@ -1,0 +1,27 @@
+name: weather
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  card_swiper: ^3.0.1
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  smooth_page_indicator: ^1.2.0+3
+  flutter_switch: ^0.3.2
+  dio: ^5.7.0
+  flutter_bloc: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
